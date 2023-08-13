@@ -1,4 +1,4 @@
-# Platform Science JavaScript Solution
+# Platform Science
 
 This project provides a solution for assigning shipments to drivers, considering specific rules to determine the best match.
 
