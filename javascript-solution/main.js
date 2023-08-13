@@ -2,8 +2,8 @@ import { readFromFile } from './readFile.js'
 import { assignShipmentsToDrivers } from './assignShipmentsToDrivers.js'
 
 async function main () {
-  const shipmentsFilePath = './files/10-list-addresses.txt'
-  const driversFilePath = './files/10-list-drivers.txt'
+  const shipmentsFilePath = '../files/10-list-addresses.txt'
+  const driversFilePath = '../files/10-list-drivers.txt'
 
   const shipments = await readFromFile(shipmentsFilePath)
   const drivers = await readFromFile(driversFilePath)
