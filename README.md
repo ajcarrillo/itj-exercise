@@ -47,7 +47,7 @@ git clone git@github.com:ajcarrillo/itj-exercise.git
 
 ## Usage
 
-1. Ensure that the files `10-list-addresses.txt` and `10-list-drivers.txt` are located in the `platform-science/files/` directory.
+1. Ensure that the files `10-list-addresses.txt` and `10-list-drivers.txt` are located in the `itj-exercise/files/` directory.
 2. Run the program:
 
    ```bash
@@ -88,7 +88,7 @@ npm run test
 3. Running the Main Script:
 
    ```bash
-   php src/index.php
+   php index.php
    ```
 
 ## Tests
