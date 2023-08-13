@@ -1,7 +1,7 @@
 <?php
 
-require 'readFromFile.php';
-require 'assignShipmentsToDrivers.php';
+require __DIR__ . '/vendor/autoload.php';
+
 function main(): void {
     $shipmentsFilePath = dirname(__DIR__) . '/files/10-list-addresses.txt';
     $driversFilePath = dirname(__DIR__) . '/files/10-list-drivers.txt';

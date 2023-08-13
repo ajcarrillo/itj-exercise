@@ -1,6 +1,5 @@
 <?php
 
-require 'calculateSS.php';
 function assignShipmentsToDrivers(array $shipments, array $drivers): array {
     $assignments = [];
     $totalSs = 0.0;
