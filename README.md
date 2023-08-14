@@ -24,44 +24,6 @@ Write an application in the language of your choice that assigns shipment destin
 git clone git@github.com:ajcarrillo/itj-exercise.git
 ```
 
-# Javascript Solution
-
-## Requirements
-
-- Node.js (recommended version 14.x or higher).
-- npm (package managers for Node.js).
-
-## Getting Started
-
-1. Navigate to the project directory:
-
-   ```bash
-   cd itj-exercise/javascript-solution
-   ```
-
-2. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-## Usage
-
-1. Ensure that the files `10-list-addresses.txt` and `10-list-drivers.txt` are located in the `itj-exercise/files/` directory.
-2. Run the program:
-
-   ```bash
-   node main.js
-   ```
-
-## Tests
-
-To run the unit tests:
-
-```bash
-npm run test
-```
-
 ---
 
 # PHP Solution
@@ -99,4 +61,44 @@ To run the tests:
 
 ```bash
 vendor/bin/pest
+```
+
+---
+
+# Javascript Solution
+
+## Requirements
+
+- Node.js (recommended version 16.16 or higher).
+- npm (recommended version 8 or higher).
+
+## Getting Started
+
+1. Navigate to the project directory:
+
+   ```bash
+   cd itj-exercise/javascript-solution
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Ensure that the files `10-list-addresses.txt` and `10-list-drivers.txt` are located in the `itj-exercise/files/` directory.
+2. Run the program:
+
+   ```bash
+   node main.js
+   ```
+
+## Tests
+
+To run the unit tests:
+
+```bash
+npm run test
 ```
